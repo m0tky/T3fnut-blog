@@ -1,31 +1,5 @@
 module.exports = {
     plugins: [
-         {
-            resolve: `gatsby-plugin-google-analytics`,
-            options: {
-                trackingId: "UA-xxx",
-                head: true,
-            }
-        },
-        {
-            resolve: `gatsby-theme-gine-blog`,
-            options: {
-                configTable: "url"
-            }
-        },
-        {
-            resolve: `gatsby-source-notion-database`,
-            options: {
-                configTable: "url"
-            }
-        },
-        {
-            resolve: `gatsby-plugin-sitemap`,
-        }
-    ],
-    siteMetadata: {
-        siteUrl: `https://url`,
-      },
         {
             resolve: `gatsby-theme-gine-blog`,
             options: {
